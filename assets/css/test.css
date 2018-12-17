@@ -1,0 +1,24 @@
+body fieldset form {
+  display: inline-block;
+}
+body fieldset form .btn {
+  cursor: pointer;
+}
+body fieldset .container .table {
+  margin: 20px auto;
+  box-shadow: 0 0 3px #17A2B8;
+}
+body fieldset .container .table thead tr th {
+  vertical-align: middle;
+}
+body fieldset .container .table thead tr th:last-child {
+  text-align: center;
+}
+body fieldset .container .table tbody tr th {
+  color: #17A2B8;
+}
+body fieldset .container .table tbody tr td {
+  color: #17A2B8;
+  font-weight: bold;
+  text-align: center;
+}
