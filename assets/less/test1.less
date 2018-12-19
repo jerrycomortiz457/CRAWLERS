@@ -1,20 +1,40 @@
 
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    // outline: 1px dashed lawngreen;
+}
 body{
+    .btn { 
+        cursor:pointer;
+        display: block;
+    }
     fieldset { 
-
+        display: inline-block;
+        width: 300px;
+        #btnExport{
+            width: 198px;
+        } 
         legend { 
-    
+            padding-left: 50px;
         }
     
         form { 
-            display: inline-block;
+            display: block;
+            // width: 198px;
             .btn { 
                 cursor:pointer;
+                width: 198px;
+
             }
         }
+    }
     
-        .container{ 
-    
+        .result_div{ 
+            width: 800px;
+            display: inline-block;
+            vertical-align: top;
+        
+            
             .table { 
                 margin: 20px auto;
                 box-shadow: 0 0 3px #17A2B8;
@@ -48,5 +68,5 @@ body{
                 }
             }
         }
-    }
+    
 }
